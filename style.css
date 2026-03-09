@@ -22,7 +22,7 @@ border-radius:10px;
 .point{
 width:20px;
 height:20px;
-background:red;
+background:rgb(0, 255, 247);
 border-radius:50%;
 position:absolute;
 cursor:pointer;
