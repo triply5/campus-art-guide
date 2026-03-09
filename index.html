@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>校园画展导览</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<h1>校园艺术展导览</h1>
+
+<p>点击地图上的展点查看作品</p>
+
+<div class="map">
+
+<img src="mapF5.png">
+
+<div class="point" style="top:170px; left:220px;" onclick="openArt(0)"></div>
+<div class="point" style="top:260px; left:420px;" onclick="openArt(1)"></div>
+
+</div>
+
+<div class="modal" id="modal">
+
+<h2 id="title"></h2>
+
+<img id="image">
+
+<p id="desc"></p>
+
+<p>点赞数：<span id="likes"></span></p>
+
+<button onclick="likeArt()">点赞 ❤️</button>
+
+<button onclick="closeArt()">关闭</button>
+
+</div>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+
+</body>
+
+</html>
